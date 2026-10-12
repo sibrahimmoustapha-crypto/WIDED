@@ -1,0 +1,100 @@
+/* --- Réinitialisation et Police globale --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Police Roboto demandée */
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* --- Barre de navigation (Affichage en ligne) --- */
+header {
+    background-color: #1e293b;
+    padding: 1rem 2rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex; /* Aligne les éléments du menu en ligne */
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
+/* --- Section Hero (Accueil) --- */
+.hero-section {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #ffffff;
+}
+
+.hero-section h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* --- Cartes de contenu --- */
+.card-section {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-section h2 {
+    color: #0f172a;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #38bdf8;
+    display: inline-block;
+    padding-bottom: 0.3rem;
+}
+
+.skills-list {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #0f172a;
+    color: #ffffff;
+    margin-top: 3rem;
+}
+
+footer a {
+    color: #38bdf8;
+    text-decoration: none;
+}
